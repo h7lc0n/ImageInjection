@@ -1,0 +1,24 @@
+This program is a simple prototype to show how messages will be ecnrypted and decrypted to use it with image injection program
+
+
+function encrypt(message) {
+	for each letter in message
+		set letter to its ascii value
+		letter = letter's ascii value + 5 letters forward
+		return the encrypted letter
+end
+}
+
+function decrypt(encrypted message) {
+	for each letter in encrypted message
+		set letter to its ascii value
+		letter = letter - 5 letters backward
+		return the decrypted letter
+end
+}
+
+function main {
+	print prompt "write your message: "
+	use encrypt function to encrypt the given message
+end
+}
