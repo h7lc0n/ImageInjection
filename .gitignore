@@ -1,11 +1,5 @@
 ## ignore github folders
 .git
 
-## ignore program folders
-
-
-## ignore github files
-
-
 ## ignore program files
 .token
