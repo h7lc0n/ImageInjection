@@ -1,7 +1,15 @@
 #pragma once
 
-#ifndef DECRYPT_H
-#define DECRYPT_H
+#ifndef __DECRYPT_H__
+#define __DECRYPT_H__
 
+#include "stdhdr.h"
 
-#endif // DECRYPT_H
+class Decrypt {
+    str decmsg(str enc_msg, uint iv);
+
+    Decrypt();
+    ~Decrypt();
+};
+
+#endif // __DECRYPT_H__
