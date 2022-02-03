@@ -6,7 +6,8 @@
 #include "stdhdr.h"
 
 class Decrypt {
-    str decmsg(str enc_msg, uint iv);
+public:
+    str decmsg(str encdata, uint iv);
 
     Decrypt();
     ~Decrypt();

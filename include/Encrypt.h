@@ -6,8 +6,9 @@
 #include "stdhdr.h"
 
 class Encrypt {
+public:
     uint geniv(uint max);
-    str encmsg(str msg, uint iv);
+    str encmsg(str data, str psk, uint iv);
 
     Encrypt();
     ~Encrypt();
