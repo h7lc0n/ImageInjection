@@ -4,6 +4,14 @@
 Decrypt::Decrypt() {};
 Decrypt::~Decrypt() {};
 
-str Decrypt::decmsg(str enc_msg, uint iv) {
-
+/**
+ * @brief Decrypt Data/Message
+ * 
+ * @param encdata encrypted data/message
+ * @param iv initialization vector
+ * @return str type - returning decrypted message
+ */
+str Decrypt::decmsg(str encdata, uint iv) {
+    str decdata;
+    return decdata;
 };
